@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Results and Outputs
+*_results_*/
+*_export_*/
+*_package_*/
+*_dashboard_*/
+*_fixes_*/
+*_corrected_*/
+output/
+results/
+
+# Large Data Files
+*.xlsx
+*.xls
+*.csv
+!data/input/*.xlsx
+!parameter_values_table.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Model outputs (keep templates only)
+!data/input/*.xlsx
+
